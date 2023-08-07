@@ -20,11 +20,23 @@
   position: relative;
 }
 
-.absolute {
+.btn-absolute {
   position: absolute;
   right: 360px;
   bottom: 5px;
   display: inline-block;
+}
+
+.btn-absolute:active {
+  /*ボタンを押したとき*/
+  border: none;
+  -webkit-transform: translate(6px, 6px);
+  transform: translate(6px, 6px);
+}
+
+.btn-absolute:active:after,
+.btn-square-slant:active:before {
+  content: none; /*ボタンを押すと線が消える*/
 }
 
 .rensou {
@@ -34,9 +46,33 @@
   display: inline-block;
 }
 
+.rensou:active {
+  /*ボタンを押したとき*/
+  border: none;
+  -webkit-transform: translate(6px, 6px);
+  transform: translate(6px, 6px);
+}
+
+.rensou:active:after,
+.btn-square-slant:active:before {
+  content: none; /*ボタンを押すと線が消える*/
+}
+
 .aishou {
   position: absolute;
   right: 170px;
   bottom: 50px;
   display: inline-block;
+}
+
+.aishou:active {
+  /*ボタンを押したとき*/
+  border: none;
+  -webkit-transform: translate(6px, 6px);
+  transform: translate(6px, 6px);
+}
+
+.aishou:active:after,
+.btn-square-slant:active:before {
+  content: none; /*ボタンを押すと線が消える*/
 }
