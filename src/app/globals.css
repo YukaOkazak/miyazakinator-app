@@ -2,7 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+.background-image {
+  background-image: url("/top.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* 背景画像を固定する */
+  min-height: 100vh; /* 画面の高さに合わせる */
+  padding: 20px;
+  color: #fff; /* テキストの色を白に設定 */
 }
 
 .center-container {
