@@ -28,15 +28,10 @@
 }
 
 .btn-absolute:active {
-  /*ボタンを押したとき*/
-  border: none;
-  -webkit-transform: translate(6px, 6px);
-  transform: translate(6px, 6px);
-}
-
-.btn-absolute:active:after,
-.btn-square-slant:active:before {
-  content: none; /*ボタンを押すと線が消える*/
+   /*ボタンを押したとき*/
+   -webkit-transform: translateY(4px);
+   transform: translateY(4px);/*下に動く*/
+   border-bottom: none;/*線を消す*/
 }
 
 .rensou {
@@ -76,3 +71,73 @@
 .btn-square-slant:active:before {
   content: none; /*ボタンを押すと線が消える*/
 }
+
+.yes {
+  position: absolute;
+  right: 210px;
+  bottom: 340px;
+  display: inline-block;
+}
+
+.yes:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+ }
+
+.maybe-yes {
+  position: absolute;
+  right: 210px;
+  bottom: 260px;
+  display: inline-block;
+}
+
+.maybe-yes:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+ }
+
+.unknown {
+  position: absolute;
+  right: 210px;
+  bottom: 180px;
+  display: inline-block;
+}
+
+.unknown:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+ }
+
+.maybe-no {
+  position: absolute;
+  right: 210px;
+  bottom: 100px;
+  display: inline-block;
+}
+
+.maybe-no:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+ }
+
+.no {
+  position: absolute;
+  right: 210px;
+  bottom: 20px;
+  display: inline-block;
+}
+
+.no:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+ }
