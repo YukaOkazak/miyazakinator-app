@@ -1,28 +1,6 @@
-import { useState } from "react";
-import sqlite3 from "sqlite3";
+import { test } from "node:test";
 
 export default function Page() {
-  const [filteredData, setFilteredData] = useState([]);
-
-  const fetchDataFromDatabase = () {
-    const [filteredData, setFilteredData] = useState([]);
-
-    // SQLiteクエリを実行してデータを絞り込む
-    db.all("SELECT * FROM your_table_name WHERE condition;", [], (err, rows) => {
-      if (err) {
-        console.error("データベースクエリの実行エラー:", err.message);
-      } else {
-        setFilteredData(rows);
-      }
-
-      db.close();
-    });
-  };
-
-  // コンポーネントがマウントされた直後にデータを取得
-  fetchDataFromDatabase();
-
-
   return (
     <body background="/rensou-main.jpg">
       <a href="/yes" class="yes">
@@ -40,16 +18,6 @@ export default function Page() {
       <a href="/no" class="no">
         <img src="/no.jpg" alt="いいえ"></img>
       </a>
-      <div>
-        <h1>SQLiteデータ絞り込みページ</h1>
-        <ul>
-          {filteredData.map((row) => (
-            <li key={row.id}>
-              {row.column1}, {row.column2}
-            </li>
-          ))}
-        </ul>
-      </div>
     </body>
   );
 }
