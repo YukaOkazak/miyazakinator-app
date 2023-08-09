@@ -5,3 +5,4 @@ export default function Page() {
     <body background="/aishou-answer.jpg"></body>
   )
 }
+.
