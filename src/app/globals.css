@@ -28,15 +28,10 @@
 }
 
 .btn-absolute:active {
-  /*ボタンを押したとき*/
-  border: none;
-  -webkit-transform: translate(6px, 6px);
-  transform: translate(6px, 6px);
-}
-
-.btn-absolute:active:after,
-.btn-square-slant:active:before {
-  content: none; /*ボタンを押すと線が消える*/
+   /*ボタンを押したとき*/
+   -webkit-transform: translateY(4px);
+   transform: translateY(4px);/*下に動く*/
+   border-bottom: none;/*線を消す*/
 }
 
 .rensou {
@@ -87,9 +82,15 @@
 .yes:active {
   /*ボタンを押したとき*/
   -webkit-transform: translateY(4px);
+<<<<<<< HEAD
   transform: translateY(4px); /*下に動く*/
   border-bottom: none; /*線を消す*/
 }
+=======
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+ }
+>>>>>>> 70899d54394a8a93ed3852304615b631e54d67d8
 
 .maybe-yes {
   position: absolute;
@@ -101,9 +102,15 @@
 .maybe-yes:active {
   /*ボタンを押したとき*/
   -webkit-transform: translateY(4px);
+<<<<<<< HEAD
   transform: translateY(4px); /*下に動く*/
   border-bottom: none; /*線を消す*/
 }
+=======
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+ }
+>>>>>>> 70899d54394a8a93ed3852304615b631e54d67d8
 
 .unknown {
   position: absolute;
@@ -115,9 +122,15 @@
 .unknown:active {
   /*ボタンを押したとき*/
   -webkit-transform: translateY(4px);
+<<<<<<< HEAD
   transform: translateY(4px); /*下に動く*/
   border-bottom: none; /*線を消す*/
 }
+=======
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+ }
+>>>>>>> 70899d54394a8a93ed3852304615b631e54d67d8
 
 .maybe-no {
   position: absolute;
@@ -129,9 +142,15 @@
 .maybe-no:active {
   /*ボタンを押したとき*/
   -webkit-transform: translateY(4px);
+<<<<<<< HEAD
   transform: translateY(4px); /*下に動く*/
   border-bottom: none; /*線を消す*/
 }
+=======
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+ }
+>>>>>>> 70899d54394a8a93ed3852304615b631e54d67d8
 
 .no {
   position: absolute;
@@ -143,6 +162,7 @@
 .no:active {
   /*ボタンを押したとき*/
   -webkit-transform: translateY(4px);
+<<<<<<< HEAD
   transform: translateY(4px); /*下に動く*/
   border-bottom: none; /*線を消す*/
 }
@@ -152,3 +172,10 @@
   width: 50%;
   height: 90%;
 }
+=======
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+ }
+
+ 
+>>>>>>> 70899d54394a8a93ed3852304615b631e54d67d8

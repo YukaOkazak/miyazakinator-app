@@ -2,7 +2,12 @@ import { test } from "node:test";
 
 export default function Page() {
   return (
+<<<<<<< HEAD
     <body background="/aishou-main.jpg">
+=======
+    <body background = "/aishou-main.jpg">
+
+>>>>>>> 70899d54394a8a93ed3852304615b631e54d67d8
       <a href="/yes" class="yes">
         <img src="/yes.jpg" alt="はい"></img>
       </a>
@@ -19,5 +24,5 @@ export default function Page() {
         <img src="/no.jpg" alt="いいえ"></img>
       </a>
     </body>
-  );
+  )
 }

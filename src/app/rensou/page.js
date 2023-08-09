@@ -2,8 +2,15 @@ import { test } from "node:test";
 
 export default function Page() {
   return (
+<<<<<<< HEAD
     <body background="/rensou-main.jpg">
       <a href="/yes" class="yes">
+=======
+    <body>
+        <img src="/rensou-main.jpg" alt="rensou-main"></img>
+
+        <a href="/yes" class="yes">
+>>>>>>> 70899d54394a8a93ed3852304615b631e54d67d8
         <img src="/yes.jpg" alt="はい"></img>
       </a>
       <a href="/maybe-yes" class="maybe-yes">
@@ -20,4 +27,8 @@ export default function Page() {
       </a>
     </body>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 70899d54394a8a93ed3852304615b631e54d67d8
